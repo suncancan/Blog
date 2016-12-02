@@ -122,7 +122,7 @@ use Pearson Correlation Coefficient to compute the relationships within users an
 2. **CSMF** 
 use Cosine similarity measures to compute the relationships within users and items based on their attributes.The objective function of CSMF is similarly constructed as Eqn.3 by respectively replacing CUS(u,v), CIS(o<sub>i</sub>,o<sub>j</sub>) as the pearson similarity.
 
-3.**JSMF**
+3. **JSMF**
 use Jaccard similarity measures to compute the relationships within users and items based on their attributes.The objective function of JSMF is similarly constructed as Eqn.3 by respectively replacing CUS(u,v), CIS(o<sub>i</sub>,o<sub>j</sub>) as the pearson similarity.
 
 
