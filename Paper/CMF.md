@@ -23,6 +23,7 @@ which generally effective at estimating overall structure that relates simultane
 ## The contributions of the paper: ##
 - A complete consideration of couplings may provide a practical mean for **enhancing the effectiveness** of RS.
 - Especially, if we **do not have ample rating data**, the objective user coupling and item coupling can be utilized to make recommendations.
+
 ## Step ##
 - We propose a coupled measure to capture the relationships for users and items,
 namely user coupling and item coupling, which consider the coupled interaction
