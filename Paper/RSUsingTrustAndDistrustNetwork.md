@@ -26,7 +26,7 @@ systems, the systems usually have **limited information about newcomers** and **
 collaborative filtering：This method is based on the concept that likeminded people prefer similar items and thus uses the information in a user’s profile to identify reference users whose tastes are similar to those of the target user. Recommendations are then made to the target user based on the items that interest
 the reference users. （Amazon.com,Epinions.com）
 
-#How do we solve the difficulty？#
+##How do we solve the difficulty？##
 1、The first type refines the similarity metrics used to identify effective reference users. （For instance, Ahn**[2]** defined the **PIP metric**, which measures the proximity, impact, and popularity of ratings, to resolve the rating sparsity problem of cold start new users and identify effective reference users. ）
 
 2、The second type utilizes the **social relations** between users to identify reference users for cold start new users.(Since cold start new users do not know which users are trustworthy, limited (i.e., short) trust lists would degrade the quality of the recommendations for cold start new users.)
