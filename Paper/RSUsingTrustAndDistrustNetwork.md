@@ -39,6 +39,31 @@ proposed method suggests **trustworthy users** to cold start new users. We const
 the **PageRank algorithm** [25] to identify **experts** in a cluster. At the same time, we analyze the **distrust information** of each
 cluster to screen out unreliable candidates. 
 
+In the second stage, we compute the possible rating of an un-rated item for a cold start new user by first identifying the clusters closely related to the user. A cluster is deemed closely related to an item if several users in the cluster rate the item. We identify the **experts** of the clusters closely related to the un-rated item and the items rated by the cold start new user. The identified experts are exploited as reference users to make useful recommendations for the cold start new user. We also introduce a technique that identifies the **implicit links** between users in a web of trust. Although recommendation systems provide user-friendly interfaces for compiling trust lists, many users may be unwilling to use the function due to privacy concerns. The proposed technique resolves this problem by analyzing the rating behavior patterns of users and identifying instances of implicit trust to enrich the web of trust. 
+##  review the selection techniques ##
+- trustbased recommendation methods 
+- new user cold start recommendation methods
+
+Recommendation approaches: content-based filtering,collaborative filtering(item-based and **user-based**(memory-based and model-based))
+
+1.content-based filtering
+
+Examine the items rated by the target user.
+
+e.g:content-based Personal View Agent(PVA) recommendation system([6]),text classification techniques to recommand([23])
+
+2.collaborative filtering
+
+In addition to the items rated by the target user, collaborative filtering approaches examine the items rated by other
+users.
+ 
+
+
+## Dataset ##
+[Epinions](http://www.trustlet.org/datasets/)
+## Evaluation ##
+recall rate, F1 score, coverage rate, users coverage rate, and execution time,
+
 
 
 
