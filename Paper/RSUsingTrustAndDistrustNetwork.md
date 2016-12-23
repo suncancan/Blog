@@ -1,4 +1,5 @@
 #An effective recommendation method for cold start new users using trust and distrust networks#
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 **Time: 2013**
 
@@ -54,9 +55,30 @@ e.g:content-based Personal View Agent(PVA) recommendation system([6]),text class
 
 2.collaborative filtering
 
-In addition to the items rated by the target user, collaborative filtering approaches examine the items rated by other
-users.
- 
+In addition to the items rated by the target user, collaborative filtering approaches examine the items rated by other users.
+
+1). memory-based
+
+![MB](http://i.imgur.com/A9HHRS9.png)
+![EX](http://i.imgur.com/pqlzNYi.jpg)
+rating of i<sub>m</sub> given by user u<sub>j</sub>
+
+similarity of users’ ratings for items: **correlation coefficient**>vector space similarity.
+
+But the two method have a problem:rating sparsity problem
+
+Solve:divides items into a set of classes.The preference of a user for a class is indicated by the user’s total rating for the items in that class. In addition, to measure the similarity between users, the authors apply the correlation coefficient to the class ratings. Since the number of classes is far smaller than the number of items, the metric mitigates the effect of the rating sparsity problem.
+
+MB problem:
+A major problem with memory-based approaches is the lack of scalability [16,43]. To identify similar users as reference users, a memory-based approach needs to record the item ratings of all users and run a database scan. However, due to the high expenses associated with the computation of a database scan, the scale of memory-based approaches is limited. 
+
+
+2). model-based
+
+
+
+
+
 
 
 ## Dataset ##
